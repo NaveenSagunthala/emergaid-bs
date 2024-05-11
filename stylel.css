@@ -14,6 +14,8 @@ body{
 body img{
     width: 400px;
     height: 200px;
+    display: flex;
+    margin: 10px;
 }
     
 .content label{
