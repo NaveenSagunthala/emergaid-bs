@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29f700 !important ;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-radius: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid green;
+}
+#navbarSupportedContent button{
+    background: #29f700;
+    width: 5rem;
+    border-radius: 15px;
+}
+#navbarSupportedContent button a:hover{
+    border-bottom: 2px solid green;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(indeximage.jpg);
+background-position: center;
+background-size: cover;    
+flex-direction: column;
+}
+#home h1{
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: rgb(39, 216, 119);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home p{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+#home a input{
+    background:white;
+    width: 8rem;
+    border-radius: 15px;
+}
+#about{
+    background-color: aqua;
+}
+#about img{
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+#about h1{
+
+    padding-top: 80px;
+}
+#contact{
+    background-color: beige;
+}
+#contact  img{
+    width: 450px;
+height: 400px;
+padding: 10px;
+}
+.form{
+display: flex;
+flex-direction: column;
+
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+#contact button{
+    background: #29f700;
+    width: 10rem;
+    border-radius: 15px;
+}

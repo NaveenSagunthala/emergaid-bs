@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Permanent Marker", cursive;
+}
+
+    
+.signin{
+    background-color: rgb(120, 224, 189);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+body h1{
+    color:blue;
+    padding: 10px;
+    font-size: 60px;
+    
+}
+body label{
+    font-size: 25px;
+    font-weight: 400;
+}
+body button{
+    margin-left: 45%;
+    margin-top: 5px;
+}
